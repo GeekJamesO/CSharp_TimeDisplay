@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "Home Page";
+    DateTime CurrentTime = DateTime.Now;
+}
+<h3>The Current Time and Date:</h3>
+<div class="DateTimeBox">
+    <p>@CurrentTime.ToString("D")</p>
+    <p>@CurrentTime.ToString("t")</p>
+</div>
